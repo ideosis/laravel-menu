@@ -11,7 +11,7 @@ Go in 'config/app.php' file.
 
 Find array **providers** and add this element to register provider:
 ```
-\LaravelMenu\LaravelMenuServiceProvider::class
+LaravelMenu\LaravelMenuServiceProvider::class,
 ```
 
 ### Migrate
