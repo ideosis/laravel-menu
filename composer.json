@@ -1,0 +1,22 @@
+{
+    "name": "ideosis/laravel-menu",
+    "description": "Laravel Menu package from datasources",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ideosis Technologies Inc.",
+            "email": "hello@ideosis.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelMenu\\": "src/"
+        }
+    }
+}
